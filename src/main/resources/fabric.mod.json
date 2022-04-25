@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "muod",
+  "version": "${version}",
+
+  "name": "µod",
+  "description": "Le mod légendaire du gang",
+  "authors": [
+    "Moi"
+  ],
+
+  "icon": "assets/muod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "io.github.mdrscorp.muod.Muod"
+    ],
+    "client": [
+      "io.github.mdrscorp.muod.MuodClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.19-alpha.22.15.a",
+    "java": ">=17"
+  }
+}

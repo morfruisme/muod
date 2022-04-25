@@ -1,0 +1,20 @@
+{
+    "item.muod.mudball": "Boule de boue",
+    "item.muod.qomp_disc": "Disque de musique",
+    "item.muod.qomp_disc.desc": "Ravelfett - qomp",
+    "entity.muod.mudball_entity": "Entité Mudball",
+
+
+    "command.muod.home_error_1": "Le home ",
+    "command.muod.home_error_2": " n'existe pas",
+
+    "command.muod.sethome_error_name_taken": "Utilise un nom différent de tes homes précédents",
+    "command.muod.sethome_success_1": "Home ",
+    "command.muod.sethome_success_2": " placé",
+    "command.muod.sethome_error_max_home_number_1": "Supprime un home avant d'en ajouter un nouveau, tu peux en avoir ",
+    "command.muod.sethome_error_max_home_number_2": " maximum",
+
+    "command.muod.delhome_success_1": "Le home ",
+    "command.muod.delhome_success_2": " a été supprimé",
+    "command.muod.delhome_error": "Tu n'as aucun home appelé "
+}
