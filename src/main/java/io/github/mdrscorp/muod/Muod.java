@@ -16,6 +16,7 @@ import net.minecraft.item.Items;
 import net.minecraft.item.MusicDiscItem;
 import net.minecraft.loot.LootTables;
 import net.minecraft.loot.entry.ItemEntry;
+import net.minecraft.loot.function.SetCountLootFunction;
 import net.minecraft.loot.provider.number.UniformLootNumberProvider;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
@@ -68,8 +69,7 @@ public class Muod implements ModInitializer {
 		LootTableLoadingCallback.EVENT.register((resourceManager, lootManager, id, table, setter) -> {
 			if (LootTables.END_CITY_TREASURE_CHEST.equals(id)) {
 				FabricLootPoolBuilder poolBuilder = FabricLootPoolBuilder.builder()
-					.rolls(UniformLootNumberProvider.create(1, 2))
-					.with(ItemEntry.builder(Items.CHICKEN_SPAWN_EGG)
+					.with(ItemEntry.builder(Muod.QOMP_DISC)
 						.weight(1));
 				table.pool(poolBuilder);
 			}
