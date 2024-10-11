@@ -12,7 +12,7 @@ import net.fabricmc.fabric.api.itemgroup.v1.ItemGroupEvents;
 import net.minecraft.entity.EntityType;
 import net.minecraft.entity.SpawnGroup;
 import net.minecraft.item.ItemGroups;
-import net.minecraft.item.MusicDiscItem;
+//import net.minecraft.item.MusicDiscItem;
 //import net.minecraft.loot.LootPool;
 //import net.minecraft.loot.LootTables;
 //import net.minecraft.loot.entry.ItemEntry;
@@ -20,7 +20,7 @@ import net.minecraft.registry.Registries;
 import net.minecraft.registry.Registry;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.util.Identifier;
-import net.minecraft.util.Rarity;
+//import net.minecraft.util.Rarity;
 
 public class Muod implements ModInitializer {
 	
@@ -36,7 +36,7 @@ public class Muod implements ModInitializer {
 	public static SoundEvent QOMP = SoundEvent.of(QOMP_ID);
 
     public static final MudballItem MUDBALL = new MudballItem(new FabricItemSettings().maxCount(16));
-	public static final MusicDiscItem QOMP_DISC = new MusicDiscItem(1, QOMP, new FabricItemSettings().rarity(Rarity.RARE).maxCount(1), 79);
+	//public static final MusicDiscItem QOMP_DISC = new MusicDiscItem(1, QOMP, new FabricItemSettings().rarity(Rarity.RARE).maxCount(1), 79);
 	
 	public static final EntityType<MudballEntity> MUDBALL_ENTITY = Registry.register(
 		Registries.ENTITY_TYPE, 
