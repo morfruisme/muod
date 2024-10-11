@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "muod",
+  "version": "${version}",
+
+  "name": "muod",
+  "description": "Mud mod",
+  "authors": [
+    "fruit"
+  ],
+
+  "icon": "assets/muod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "it.fru.muod.Muod"
+    ],
+    "client": [
+      "it.fru.muod.MuodClient"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.13.3",
+    "fabric": "*",
+    "minecraft": "1.20.1",
+    "java": ">=17"
+  }
+}

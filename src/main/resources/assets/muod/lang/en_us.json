@@ -1,0 +1,20 @@
+{
+    "item.muod.mudball": "Mudball",
+    "item.muod.qomp_disc": "Music Disc",
+    "item.muod.qomp_disc.desc": "Ravelfett - qomp",
+    "entity.muod.mudball_entity": "Entity Mudball",
+
+    
+    "command.muod.home_error_1": "The home ",
+    "command.muod.home_error_2": " does not exist",
+
+    "command.muod.sethome_error_name_taken": "Use a different name than your previous homes",
+    "command.muod.sethome_success_1": "Home ",
+    "command.muod.sethome_success_2": " set",
+    "command.muod.sethome_error_max_home_number_1": "Delete a home before trying to add a new one, you can have up to ",
+    "command.muod.sethome_error_max_home_number_2": " homes",
+
+    "command.muod.delhome_success_1": "Home ",
+    "command.muod.delhome_success_2": " successfully removed",
+    "command.muod.delhome_error": "You don't have any home named "
+}

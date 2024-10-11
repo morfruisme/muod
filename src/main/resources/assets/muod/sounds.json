@@ -1,0 +1,28 @@
+{
+	"mudball_impact": {
+		"category": "ambient",
+		"sounds": [
+			{
+				"name": "muod:mud_impact_1",
+				"stream": true
+			},
+			{
+				"name": "muod:mud_impact_2",
+				"stream": true
+			},
+			{
+				"name": "muod:mud_impact_3",
+				"stream": true
+			}
+		]
+	},
+
+	"qomp": {
+		"sounds": [
+			{
+				"name": "muod:qomp",
+				"stream": true
+			}
+		]
+	}
+}
